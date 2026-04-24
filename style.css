@@ -1007,10 +1007,13 @@ header {
 }
 
 .glav2 {
+    width: 100%;
   font-family: a3;
   color: rgb(200, 200, 200);
   font-size: 24px;
   letter-spacing: 3px;
+  text-wrap: wrap;
+ overflow-wrap: break-word; 
 }
 
 .closed-obertka {
