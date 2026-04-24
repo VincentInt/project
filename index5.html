@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация — Конструкторское бюро</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="head1">
+        <a class="a1" href="./index.html">
+            <img class="img" src="./звезда.png">
+            <div class="logo">
+                Конструкоторское <br>бюро
+            </div>
+        </a>
+        <a class="window" href="./index3.html">
+            Военная техника
+        </a>
+        <a class="window" href="./index4.html">
+            Конструкторы
+        </a>
+
+        <a class="window" href="./index2.html">
+            Справочник
+        </a>
+        <a class="reg-style" href="./index5.html">
+            <img class="reg" src="./метка.png">
+        </a>
+    </header>
+
+    <header class="head2">
+        <a class="a1" href="./index.html">
+            <img class="img" src="./звезда.png">
+            <div class="logo">
+                Конструкоторское <br>бюро
+            </div>
+        </a>
+        <button id="burmalnet" class="burger">
+            <img class="reg2" src="./бургер.png">
+        </button>
+
+        <div id="burmalda" class="burger-menu">
+            <a class="window2" href="./index3.html">
+                Военная техника
+            </a>
+            <a class="window2" href="./index4.html">
+                Конструкторы
+            </a>
+
+            <a class="window2" href="./index2.html">
+                Справочник
+            </a>
+            <a class="window2" href="./index2.html">
+                Билеты
+            </a>
+            
+        </div>
+
+    </header>
+
+
+
+    <div id="obertka2" class="obertka">
+        <div class="completed">
+            <p class="glav1">Реквизиты покупки</p>
+            <p id="glav2" class="glav2">Билетов на сумму :</p>
+            <p id="glav3" class="glav2">Отправленны по почте : </p>
+            <div class="closed-obertka">
+                <button id="closed" class="confirm3">Закрыть</button>
+            </div>
+        </div>
+    </div>
+    <div id="obertka" class="obertka">
+        <div class="modal-window">
+            <p class="glav">Покупка билетов</p>
+            <input id="fio" placeholder="ФИО" class="email" type="text">
+            <div id="fio-error" class="error-message"></div>
+            <input id="email" placeholder="email" class="email" type="email">
+            <div id="email-error" class="error-message"></div>
+            <div class="">
+                <div class="tach">
+                    <button id="minus" class="plus-minus">-</button>
+                    <p id="count" class="count">1</p>
+                    <button id="plus" class="plus-minus">+</button>
+                    <div id="count-price" class="count-price">200 ₽</div>
+                </div>
+                <p></p>
+            </div>
+            <div class="yes-no">
+                <button id="yes" class="confirm">Подтвердить</button>
+                <button id="no" class="confirm2">Отменить</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <video class="video" id="myVideo" autoplay muted loop playsinline src="./Spark - 15120.mp4">
+    </video>
+
+    <div class="main1">
+        <p class="history">музеи и выставки</p>
+        <p class="history-sub">Живая история брони: от легендарной «тридцатьчетверки» до «Арматы». Найдите ближайшую
+            экспозицию и прикоснитесь к мощи советского танкостроения.</p>
+
+        <iframe class="map"
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae3799f760e31d30cc57aff9376dc0c16b72dc13c4ee26a61412b96b8670ace4f&ampsource=constructor"
+            width="600" height="400" frameborder="0"></iframe>
+
+        <p class="section-title"> КУПИТЬ БИЛЕТЫ</p>
+
+        <div class="museum-ticket">
+            <div class="museum-text">
+                <p class="museum-name">Парк «Патриот» (Музейный комплекс, Кубинка)</p>
+                <div class="museum-desc">Крупнейшая в мире коллекция советских танков. Здесь можно увидеть Т-34, ИС-3,
+                    уникальную «Маус» и секретные опытные образцы.</div>
+                <div class="museum-loc">Московская обл., Одинцовский р-н</div>
+            </div>
+            <div class="ticket-pay">
+                <p class="ticket-price">Билет от 400 ₽</p>
+                <button name="vonychka" class="button-ticket">Купить билет</button>
+            </div>
+        </div>
+
+        <div class="museum-ticket">
+            <div class="museum-text">
+                <p class="museum-name">Музей военной техники УГМК (Верхняя Пышма)</p>
+                <div class="museum-desc">Вторая по величине коллекция после Кубинки. Вся техника на ходу и
+                    отреставрирована до состояния «с завода». Танки Т-34-85, КВ-1, ИСУ-152.</div>
+                <div class="museum-loc">Свердловская обл., г. Верхняя Пышма</div>
+            </div>
+            <div class="ticket-pay">
+                <p class="ticket-price">Билет от 300 ₽</p>
+                <button name="vonychka" class="button-ticket">Купить билет</button>
+            </div>
+        </div>
+
+        <div class="museum-ticket">
+            <div class="museum-text">
+                <p class="museum-name">Музей в Падиково (Истринский район)</p>
+                <div class="museum-desc">Частная коллекция с редчайшими экспонатами: плавающий танк Т-38, легендарный
+                    «Шерман» и самоходки СУ-100.</div>
+                <div class="museum-loc">Московская обл., дер. Падиково</div>
+            </div>
+            <div class="ticket-pay">
+                <p class="ticket-price">Билет от 500 ₽</p>
+                <button name="vonychka" class="button-ticket">Купить билет</button>
+            </div>
+        </div>
+
+        <div class="museum-ticket1">
+            <div class="museum-text">
+                <p class="museum-name">Центральный музей Вооруженных Сил (Москва)</p>
+                <div class="museum-desc">Танки на открытой площадке в центре столицы. Именно здесь стоит тот самый Т-34,
+                    который первым ворвался в Калинин в 1941 году.</div>
+                <div class="museum-loc">Москва, ул. Советской Армии, 2</div>
+            </div>
+            <div class="ticket-pay">
+                <p class="ticket-price">Билет от 200 ₽</p>
+                <button name="vonychka" class="button-ticket">Купить билет</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="anton">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="a2">
+                    <img class="img2" src="./звезда.png">
+                    <p class="logo2">КОНСТРУКТОРСКОЕ БЮРО</p>
+
+                </div>
+                <p class="footer-copy">© 2025 Конструкторское бюро. <br>Все права защищены броней.</p>
+            </div>
+
+            <div class="footer-center">
+                <p class="footer-name">РАЗДЕЛЫ</p>
+                <div class="footer-page">
+                    <a class="silka" href="./index.html"> Главная</a>
+                    <a class="silka" href="./index3.html"> Военная техника</a>
+                    <a class="silka" href="./index4.html"> Конструкторы</a>
+                    <a class="silka" href="./index2.html"> Справочник</a>
+                    <a class="silka" href="./index5.html"> Музеи / Билеты</a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <p class="footer-name">СВЯЗЬ И ПРАВО</p>
+                <div class="footer-contact">
+                    <p class="footer-call">По вопросам сотрудничества:</p>
+                    <a class="pochta" href="mailto:pm@mil.ru">pm@mil.ru</a>
+                </div>
+                <div class="footer-defens">
+                    <p class="defens-text">Использование материалов сайта разрешено только с указанием активной ссылки
+                        на источник. Все изображения и чертежи носят ознакомительный характер.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="./js2.js"></script>
+<script src="./js3.js"></script>
+</html>
