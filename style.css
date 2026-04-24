@@ -939,6 +939,7 @@ header {
   width: 22.5%;
   font-size: 16px;
   height: 40px;
+  min-width: fit-content;
   background-color: #666;
   border-radius: 10px;
   border: none;
@@ -946,6 +947,7 @@ header {
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: a3;
+  padding: 0px 15px;
 }
 
 .confirm:hover {
